@@ -49,6 +49,8 @@ Por una parte, del lado del backend, nos concentramos en hacer más system tests
 Luego, otra deuda técnica tiene que ver con la prolijidad y agrupación del código, en algunos casos quedaron clases con muchas líneas que, por cuestión de tiempo, no logramos refactorizar. Esto no tiene tanto impacto dado que es un proyecto con una duración fija, pero en caso de tener que mantenerlo por más tiempo, sería importante distribuir mejor las responsabilidades entre clases.
 Por el lado del frontend, no hicimos tests para centrarnos en la funcionalidad de la aplicación, también la poca reutilización de componentes.
 
+Otra deuda técnica que tenemos tiene que ver con la optimización de rendimiento de la aplicación por las renderizaciones y llamadas que hacemos de más, por ejemplo, para que no se haga trabajo de más.  
+
 Por último, si bien estamos conformes con la UI/UX, de contar con más tiempos podríamos mejorarla.
 
 ### Desafíos
